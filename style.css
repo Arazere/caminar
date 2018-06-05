@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url(images/bg.jpg);
+	background-repeat: no-repeat;
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	background-attachment:;
+}
+
+.container-center {
+	max-width: 1170px;
+	margin: 0px auto;
+	font-family: Poppins, Arial, sans-serif;
+
+}
+
+.container {
+
+	margin: 0 50px;
+	box-shadow: 0 0 15px
+}
+
+.title {
+	display: block;
+	text-align: center;
+	font-size: 63px;
+	font-weight: bold;
+	margin-top: 40px;
+	color: #fff;
+	text-decoration: none;
+
+}
+
+span {
+	display: block;
+	text-align: center;
+	margin-top: -20px;
+	margin-bottom: 40px;
+	font-size: 15px;
+	font-weight: 300;
+	color: #fff;
+	opacity: 0.6;
+
+}
+
+h2 {
+	border-bottom: 1px solid #111;
+	padding-bottom: 10px;
+
+}
+
+h3 {
+	opacity: 0.3;
+	font-weight: 200;
+	padding-top: 10px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-size: 12px;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+
+p {
+	font-size: 13px;
+	opacity: 0.8;
+}
+
+.box {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+
+}
+
+.box:nth-child(even) {
+	background-color: #fff;
+}
+
+.box:nth-child(odd) {
+	background-color: #1E1F23;
+}
+
+
+.first-box {
+	padding-top: 50px;
+}
+
+.box p {
+	padding: 20px 80px 0px 80px;
+	text-align: left;
+
+	/*	SECTION BOX GALLERY*/
+}
+
+.gallery {
+	background-color: #121315;
+	margin: 60px;
+}
+
+.gallery h2 {
+	color: #fff;
+	padding-top: 40px;
+}
+
+.gallery h3 {
+	color: #fff;
+	padding-bottom: 20px;
+}
+
+.gallery-pictures img {
+	width: 50%;
+	height: 50%;
+}
+
+.gallery-pictures {
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/*
+.text-position {
+	width: 50%;
+}
+
+.image-position {
+	width: 50%;
+}
+
+.third-box img {
+	display: block;
+
+}
+
+.third-box {
+	display: flex;
+}
+
+
+.text-position {
+	padding: 30px;
+}
+.text-position h2{
+	border: 0;
+	padding: 0;
+}
+
+*/
+
+
+
+@media (max-width: 1280px) {
+
+	.container-center p {
+		text-align: justify;
+	}
+
+}
+
+@media (max-width: 960px) {
+	body {
+		background-size: 100%;
+		background-position: top;
+		background-color: #1E1F23;
+	}
+
+
+}
+
+@media (max-width: 880px) {
+	.gallery-pictures img {
+		width: 100%;
+		height: 50%;
+	}
+}
